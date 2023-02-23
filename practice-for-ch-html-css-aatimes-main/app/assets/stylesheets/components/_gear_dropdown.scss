@@ -1,3 +1,16 @@
 // Use the gear_dropdown.png screenshot as a style guide
 
 @use '../variables' as *;
+
+#gear {
+  position: relative;
+}
+
+#gear-dropdown {
+  position: absolute;
+  display: none;
+}
+
+#gear:hover > #gear-dropdown {
+  display: block;
+}

@@ -27,10 +27,11 @@
           Log In
         </button>
       </li>
-       <li>
+       <li id="gear">
           <div id="gear-btn" data-action="click->modal#toggleModal">
             <i class="fa-solid fa-gear"></i>
           </div>
+          <%= render partial: 'shared/gear_dropdown' %>
       </li>
     </ul>
   </nav>
